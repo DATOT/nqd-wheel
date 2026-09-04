@@ -254,7 +254,7 @@ export default function WeightedWheel() {
      * This makes the wheel feel less predictable.
      */
     const edgeBias = Math.random() < 0.5 ? -1 : 1;
-    const distanceFromCenter = Math.pow(Math.random(), 0.0025);
+    const distanceFromCenter = Math.pow(Math.random(), 0.45);
 
     const jitter = edgeBias * distanceFromCenter * segAngle * 0.42;
 
